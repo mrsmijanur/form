@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.678)), url(https://tse2.mm.bing.net/th?id=OIP.pf0GPO4grgvM9NJ_-TdHUAHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+main
+{
+    margin-top: 10px;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form, .buyItem
+{
+    margin: 0 20px;
+}
+/*---form css start here---*/
+form
+{
+    display: block;
+    border: 1px solid white;
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow:0 0 19px rgba(247, 3, 255, 0.363),
+               0 0 20px rgba(247, 3, 255, 0.253),
+               0 0 49px rgba(247, 3, 255, 0.308),
+               0 0 20px rgba(247, 3, 255, 0.295);
+               border: 2px solid rgba(2, 255, 78, 0.438);
+}
+
+form h2
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:30px;
+    color: #ffff;
+    letter-spacing: 2px;
+}
+label
+{
+    display: block;
+    margin:10px 20px 5px 13px;
+    font-size: 20px;
+
+}
+input
+{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffffbb;
+} 
+::placeholder
+{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+input[type="submit"]
+{
+    margin: 18px 0px 0 25px ;
+    display: block;
+    background: #4CAF50;
+    color: #ffff;
+    font-size: 18px;
+}
+/* buying items css start here  */
+.buyItem{}
+.item-parent 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px ;
+}
+
+input, img
+{
+    margin: 5px 10px 5px;
+}
+fieldset
+{
+    background: #0000001a;
+    width: 280px;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow:0 0 19px rgba(247, 3, 255, 0.363),
+               0 0 20px rgba(247, 3, 255, 0.253),
+               0 0 49px rgba(247, 3, 255, 0.308),
+               0 0 20px rgba(247, 3, 255, 0.295);
+               border: 2px solid rgba(2, 255, 78, 0.438);
+               position: relative;
+}
+
+fieldset::before
+{
+    content: "";
+    width: 1px;
+    height: 60px;
+    background:rgb(229, 255, 0);
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+fieldset::after
+{
+    content: "";
+    width: 1px;
+    height: 60px;
+    background:rgb(0, 255, 34);
+    position: absolute;
+    right:0px;
+    bottom:45px;
+
+}
+legend
+{
+    text-align: center;
+    border: 1px solid #ffff;
+    padding: 5px 15px;
+    background:linear-gradient(30deg, rgba(53, 8, 255, 0.795), rgba(255, 0, 200, 0.719), rgba(161, 4, 167, 0.527));
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: block; */
+}
+/* for all img css */
+img
+{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+/* special introduction css start here */
+.fieldset
+{
+    margin-left: 20px;
+}
+textarea
+{
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin:40px auto 10px;
+    resize: none;   
+    background: #ffffffbb;
+    border: none;
+}
+input[type="reset"]
+{
+    /* margin-left: 12px; */
+    background: rgba(255, 0, 0, 0.74);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin:30px auto 0;
+}
+
+/* mota panda css start here  */
+.container
+{
+    border: 1px solid #fff;
+    margin-left: 40px;
+    height: 90vh;
+}
+.feadbackForm form,label
+{
+    box-shadow: none;
+    border: none;
+}
+
+.container button
+{
+    padding: 8px 10px;
+    border: none;
+
+}
+.container > img 
+{
+    width: 200px;
+    height: 200px;
+}
+.container input[type="search"]
+{
+    position: relative;
+}
+.container .closseBtn
+{
+    position: absolute;
+    top: 42px;
+    right: 95px;
+    width: 70px;
+    height: 70px;
+}
+.container a
+{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: #ffff;
+}
+.feadbackForm h5
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.feadbackForm textarea
+{
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-top: 0;
+}
+.feadbackForm label
+{
+    display: block;
+}
+.feadbackForm input[type="submit"]
+{
+    margin-left: 16px;
+}
